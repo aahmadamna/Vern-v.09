@@ -1,2 +1,16 @@
-echo "__pycache__/" > .gitignore
-echo ".env" >> .gitignore
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# VS Code settings (optional, if you use VS Code)
+.vscode/
+
+# macOS system files (just in case)
+.DS_Store
